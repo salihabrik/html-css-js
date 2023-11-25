@@ -74,13 +74,13 @@ body.dark-mode .container {
     background-color: #111111; /* لون خلفية ال Navbar في وضع الظلام */
     color: #ffffff
 }
-/* أنماط Navbar في وضع الظلام */
+
 .navbar.dark-mode {
-    background-color: #111111; /* لون خلفية ال Navbar في وضع الظلام */
-    color: #ffffff; /* لون النص في Navbar في وضع الظلام */
+    background-color: #111111; 
+    color: #ffffff; 
 }
 
-/* أنماط العناصر الأخرى في وضع الظلام */
+
 .dark-mode {
-    color: #ffffff; /* لون النص في وضع الظلام */
+    color: #ffffff; 
 }
