@@ -1,0 +1,86 @@
+/* Add this CSS in your styles.css or within the <style> tag in your HTML file */
+
+#Login {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align:start;
+
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f0f0f0;
+}
+
+h2 {
+    color: black;
+}
+
+label {
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+body.dark-mode label {
+    color: white; /* Change to the desired text color for dark mode */
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+/* Dark mode styles */
+body.dark-mode {
+    background-color: black; /* Set your dark mode background color */
+    color: #fff; /* Set your dark mode text color */
+}
+
+body.dark-mode #Login {
+    background-color: black; /* Set your login form background color in dark mode */
+    color: #fff; /* Set your login form text color in dark mode */
+}
+
+body.dark-mode .container {
+    background-color: black; /* Set your login form container background color in dark mode */
+    box-shadow: white; /* Adjust shadow color in dark mode */
+}
+
+#nav-menu.dark-mode{
+    background-color: #111111; /* لون خلفية ال Navbar في وضع الظلام */
+    color: #ffffff
+}
+/* أنماط Navbar في وضع الظلام */
+.navbar.dark-mode {
+    background-color: #111111; /* لون خلفية ال Navbar في وضع الظلام */
+    color: #ffffff; /* لون النص في Navbar في وضع الظلام */
+}
+
+/* أنماط العناصر الأخرى في وضع الظلام */
+.dark-mode {
+    color: #ffffff; /* لون النص في وضع الظلام */
+}

@@ -1,0 +1,31 @@
+#search {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}

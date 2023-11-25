@@ -1,0 +1,274 @@
+@media (max-width:1080px){
+    .about us-img img{
+        width: 20px;
+        border-radius: 80;
+    }
+    .services-list div h2{
+        font-size: 3px;
+    }
+}
+
+@media(max-width:900px){
+    .about us {
+        padding-top: 6px;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+
+    .about us-img img{
+        width: 20px;
+        border-radius: 80px;
+        margin-top: 20px;
+    }
+    .about us-text p{
+        width: 200px;
+    }
+
+    .home .container1 h1{
+        font-size: 400px;
+    }
+    .home .container1 h3{
+        font-size: 27px;
+    }
+    .home .container1 h3 span{
+        font-size: 30px;
+    }
+    .home .container1 h1{
+        font-size: 36px;
+    }
+    .home .container1 p{
+        font-size: 17px;
+        width: 380px;
+        text-align: left;
+    }
+    .home .container1 a{
+        font-size: 19px;
+    }
+}
+
+
+
+@media(max-width:880px){
+    
+    .sisi{
+        display: block;
+    }
+    .container .services-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:740px){
+    .about us-text p{
+        width: auto;
+    }
+}
+@media(max-width:732px){
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about us{
+        flex-direction: column;
+    }
+
+    .home .container1 h1{
+        font-size: 35px;
+    }
+    .home .container1 h3{
+        font-size: 23px;
+    }
+    .home .container1 h2{
+        font-size: 34px;
+    }
+
+    .home .container1 p{
+        max-width: 300px;
+        font-size: 15px;
+    }
+    .about us {
+        padding-top: 50px;
+    }
+    .about us h1{
+        text-align: center;
+    }
+    .about-text p{
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .home .container1{
+    margin-left: 50px;   
+    }
+    
+}
+
+@media(max-width:460px){
+    .home{
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .home .container1 h1{
+        font-size: 30px;
+    }
+    .home .container1 h3 span{
+        font-size: 22px;
+    }
+    .home .container1 a{
+        font-size: 18px;
+    }
+    .home .container1 p{
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .about us-text{
+        padding-bottom: 140px;
+    }
+    .about us-img img{
+        margin-top: 250px;
+    }
+    .about us{
+        padding-bottom: 100px;
+        gap: 10px;
+    }
+
+    .about us p{  
+        font-size: 14px;
+        text-align: center;
+        width: 300px;
+    }
+    .sub-title{
+        font-size: 30px;
+    }
+    .services-list div i{
+        font-size: 35px
+    }
+    .services-list div h2{
+        font-size: 19px;
+    }
+    .services-list div p{
+        font-size: 13px;
+    }
+    .services-list div{
+        padding: 10px;
+    }
+    .services-list div a{
+        font-size: 15px;
+
+    }
+    .row input{
+        width: 300px;
+        
+    }
+    .row textarea{
+        width: 300px;
+    }
+    .thank-you{
+        transform: translateX(130%);
+    }
+
+    .work {
+        height: 210px;
+    }
+    .work h3{
+        font-size: 19px;
+    }
+    .work p{
+        font-size: 14px;
+    }
+    .work .layer a i{
+        font-size: 17px;
+        padding: 0;
+        margin-bottom: 4px;
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+    .about-us-container {
+        flex-direction: column; 
+
+    .about-us-img,
+    .about-us-text {
+        max-width: 100%; 
+        margin-right: 0; 
+    }
+}
+}
+@media (max-width: 768px) {
+    .about-us-img {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .about-us-text {
+        max-width: 100%;
+    }
+}
+
+@media(max-width:880px){
+    .home .container1 p{
+        font-size: 12px;
+        width: 220px;
+    }
+    .home .container1 h1{
+        font-size: 28px;
+    }
+}
+
+@media(min-with :880px) {
+    .bar{
+        width: 8vw;
+    }
+}
+@media(max-with :4000px) {
+    .bar{
+        width: 100px;
+    }
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    #searchInput {
+        margin-top: 15px;
+    }
+
+    button {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 280px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    #searchInput {
+        margin-top: 10px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Add responsive styles here */
+    .container {
+        padding: 50px 20px;
+    }
+}
+
+
