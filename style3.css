@@ -71,7 +71,7 @@ body.dark-mode .container {
 }
 
 #nav-menu.dark-mode{
-    background-color: #111111; /* لون خلفية ال Navbar في وضع الظلام */
+    background-color: #111111; 
     color: #ffffff
 }
 
