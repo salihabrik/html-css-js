@@ -1,7 +1,4 @@
 // Your existing JavaScript code
-// cart.js
-
-// انتظر حتى يتم تحميل المستند
 document.addEventListener("DOMContentLoaded", function () {
     // Get the cart button
     const cartToggle = document.getElementById("cart-toggle");
