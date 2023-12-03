@@ -12,5 +12,5 @@ def get_drug_info(name):
 def submit_contact_form():
     data = request.get_json()
     # Implement logic to handle the submitted contact form data
-    # For simplicity, let's just echo back the received data
+    # For simplicity, let's just echo back  received data
     return jsonify(data)
