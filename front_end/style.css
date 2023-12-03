@@ -126,8 +126,7 @@ body.dark-mode {
 
 }
 body.dark-mode h2 {
-    color: white; /* Change to the desired text color for dark mode */
-    /* Add any other styles for dark mode */
+    color: white;
 }
 
 .nav-menu.active{
